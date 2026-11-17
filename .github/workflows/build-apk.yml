@@ -22,7 +22,7 @@ jobs:
       - name: Prepare Android project
         run: |
           mkdir android-project
-          unzip -q namane-banana-android-build-with-logo.zip -d android-project
+          unzip -q Namane-banana-android-build-with-logo.zip -d android-project
 
       - name: Build APK
         run: gradle -p android-project assembleDebug
